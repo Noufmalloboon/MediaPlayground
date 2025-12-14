@@ -16,6 +16,7 @@
 		1EABA46D2ECA0E7300F3C4B2 /* MediaPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA46C2ECA0E7300F3C4B2 /* MediaPlaygroundTests.swift */; };
 		1EABA4772ECA0E7300F3C4B2 /* MediaPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA4762ECA0E7300F3C4B2 /* MediaPlaygroundUITests.swift */; };
 		1EABA4792ECA0E7300F3C4B2 /* MediaPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA4782ECA0E7300F3C4B2 /* MediaPlaygroundUITestsLaunchTests.swift */; };
+		1EABA4862ECA1AF000F3C4B2 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA4852ECA1AF000F3C4B2 /* VideoPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1EABA4722ECA0E7300F3C4B2 /* MediaPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EABA4762ECA0E7300F3C4B2 /* MediaPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlaygroundUITests.swift; sourceTree = "<group>"; };
 		1EABA4782ECA0E7300F3C4B2 /* MediaPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EABA4852ECA1AF000F3C4B2 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1EABA4572ECA0E7000F3C4B2 /* SceneDelegate.swift */,
 				1EABA4592ECA0E7000F3C4B2 /* ViewController.swift */,
 				1EABA45B2ECA0E7000F3C4B2 /* Main.storyboard */,
+				1EABA4852ECA1AF000F3C4B2 /* VideoPlayerViewController.swift */,
 				1EABA45E2ECA0E7300F3C4B2 /* Assets.xcassets */,
 				1EABA4602ECA0E7300F3C4B2 /* LaunchScreen.storyboard */,
 				1EABA4632ECA0E7300F3C4B2 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EABA45A2ECA0E7000F3C4B2 /* ViewController.swift in Sources */,
+				1EABA4862ECA1AF000F3C4B2 /* VideoPlayerViewController.swift in Sources */,
 				1EABA4562ECA0E7000F3C4B2 /* AppDelegate.swift in Sources */,
 				1EABA4582ECA0E7000F3C4B2 /* SceneDelegate.swift in Sources */,
 			);
