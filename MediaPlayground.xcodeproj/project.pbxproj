@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E33FB0E2EEEC02F00E73298 /* AudioEngineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E33FB0D2EEEC02F00E73298 /* AudioEngineViewController.swift */; };
+		1E33FB102EF41C9600E73298 /* relaxing-guitar-loop-v5-245859.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E33FB0F2EF41C9600E73298 /* relaxing-guitar-loop-v5-245859.mp3 */; };
+		1E33FB122EF41E6400E73298 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E33FB112EF41E6400E73298 /* sample.mp3 */; };
 		1EABA4562ECA0E7000F3C4B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA4552ECA0E7000F3C4B2 /* AppDelegate.swift */; };
 		1EABA4582ECA0E7000F3C4B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA4572ECA0E7000F3C4B2 /* SceneDelegate.swift */; };
 		1EABA45A2ECA0E7000F3C4B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA4592ECA0E7000F3C4B2 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E33FB0D2EEEC02F00E73298 /* AudioEngineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineViewController.swift; sourceTree = "<group>"; };
+		1E33FB0F2EF41C9600E73298 /* relaxing-guitar-loop-v5-245859.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "relaxing-guitar-loop-v5-245859.mp3"; sourceTree = "<group>"; };
+		1E33FB112EF41E6400E73298 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 		1EABA4522ECA0E7000F3C4B2 /* MediaPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EABA4552ECA0E7000F3C4B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EABA4572ECA0E7000F3C4B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 		1EABA4492ECA0E7000F3C4B2 = {
 			isa = PBXGroup;
 			children = (
+				1E33FB112EF41E6400E73298 /* sample.mp3 */,
 				1EABA4542ECA0E7000F3C4B2 /* MediaPlayground */,
 				1EABA46B2ECA0E7300F3C4B2 /* MediaPlaygroundTests */,
 				1EABA4752ECA0E7300F3C4B2 /* MediaPlaygroundUITests */,
@@ -105,6 +112,7 @@
 				1EABA4572ECA0E7000F3C4B2 /* SceneDelegate.swift */,
 				1EABA4592ECA0E7000F3C4B2 /* ViewController.swift */,
 				1EABA45B2ECA0E7000F3C4B2 /* Main.storyboard */,
+				1E33FB0D2EEEC02F00E73298 /* AudioEngineViewController.swift */,
 				1EABA4852ECA1AF000F3C4B2 /* VideoPlayerViewController.swift */,
 				1EABA45E2ECA0E7300F3C4B2 /* Assets.xcassets */,
 				1EABA4602ECA0E7300F3C4B2 /* LaunchScreen.storyboard */,
@@ -124,6 +132,7 @@
 		1EABA4752ECA0E7300F3C4B2 /* MediaPlaygroundUITests */ = {
 			isa = PBXGroup;
 			children = (
+				1E33FB0F2EF41C9600E73298 /* relaxing-guitar-loop-v5-245859.mp3 */,
 				1EABA4762ECA0E7300F3C4B2 /* MediaPlaygroundUITests.swift */,
 				1EABA4782ECA0E7300F3C4B2 /* MediaPlaygroundUITestsLaunchTests.swift */,
 			);
@@ -234,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E33FB102EF41C9600E73298 /* relaxing-guitar-loop-v5-245859.mp3 in Resources */,
+				1E33FB122EF41E6400E73298 /* sample.mp3 in Resources */,
 				1EABA4622ECA0E7300F3C4B2 /* LaunchScreen.storyboard in Resources */,
 				1EABA45F2ECA0E7300F3C4B2 /* Assets.xcassets in Resources */,
 				1EABA45D2ECA0E7000F3C4B2 /* Main.storyboard in Resources */,
@@ -263,6 +274,7 @@
 			files = (
 				1EABA45A2ECA0E7000F3C4B2 /* ViewController.swift in Sources */,
 				1EABA4862ECA1AF000F3C4B2 /* VideoPlayerViewController.swift in Sources */,
+				1E33FB0E2EEEC02F00E73298 /* AudioEngineViewController.swift in Sources */,
 				1EABA4562ECA0E7000F3C4B2 /* AppDelegate.swift in Sources */,
 				1EABA4582ECA0E7000F3C4B2 /* SceneDelegate.swift in Sources */,
 			);
