@@ -168,6 +168,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance"/>
                     </tabBar>
                     <connections>
                         <segue destination="sbp-sg-UKn" kind="relationship" relationship="viewControllers" id="RWg-IT-QUM"/>
@@ -182,7 +185,9 @@
         <scene sceneID="S7r-5J-UFE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sbp-sg-UKn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Video" image="play.rectangle" catalog="system" id="AyH-BJ-ENP"/>
+                    <tabBarItem key="tabBarItem" title="Video" image="play.rectangle" catalog="system" id="AyH-BJ-ENP">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hZr-PO-y5A">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -433,7 +438,9 @@
         <scene sceneID="BXp-0A-YiF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fDk-XS-162" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Audio FX" image="waveform" catalog="system" id="xLu-IA-Weo"/>
+                    <tabBarItem key="tabBarItem" title="Audio FX" image="waveform" catalog="system" id="xLu-IA-Weo">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uyP-6K-dwv">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
